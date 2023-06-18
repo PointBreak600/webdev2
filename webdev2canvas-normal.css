@@ -1,0 +1,33 @@
+body{
+    margin:0;
+}
+canvas{
+    background-color: rgb(87, 1, 87);
+    z-index:1;
+    border:0;
+    position:absolute;
+}
+.endOverlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    text-align: center;
+    z-index: 2;
+}
+.endOverlay h1 {
+    color: white;
+    font-size: 48px;
+    margin-top: 35vh;
+}
+.scoreText{
+    color:white;
+    font-size:36px;
+    margin-top:50px;
+}
+.playButton{
+    padding:20px;
+}
